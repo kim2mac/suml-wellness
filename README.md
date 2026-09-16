@@ -56,6 +56,20 @@ node preview.cjs
 브라우저에서 http://localhost:3000 을 여세요. 종료할 때는 터미널에서 Ctrl+C.
 `index.html`을 직접 열어도 기본 화면을 볼 수 있습니다.
 
+## 디자인과 폰트
+첨부한 레퍼런스에 맞춰 살구 핑크와 브라운을 사용합니다.
+제목은 Gaegu 손글씨체, 본문은 Gowun Dodum입니다.
+폰트는 assets/fonts에 포함되어 있으며 OFL 라이선스도 함께 보관합니다.
+색상은 styles.css의 :root, 세부 무드는 파일 아래 레퍼런스 구역에서 바꿉니다.
+
+## kim2mac.vercel.app 주소 연결
+site-config.js와 검색·공유 메타데이터는 요청한 새 주소로 준비했습니다.
+코드의 siteUrl 변경만으로 Vercel 도메인이 등록되지는 않습니다.
+Vercel 기존 프로젝트 → Settings → Domains → Add Domain에서 kim2mac.vercel.app을 추가하세요.
+다른 사용자가 소유한 주소라면 등록할 수 없으므로 표시되는 안내를 확인하세요.
+새 주소가 정상 작동하는 것을 확인한 뒤 기존 도메인을 새 주소로 리디렉션할 수 있습니다.
+GitHub 저장소 이름은 바꾸지 않아도 됩니다.
+
 ## 검색·공유 설정
 기본 title, description, Open Graph 제목·설명은 `index.html`에 포함되어 있습니다.
 실제 배포 주소를 `site-config.js`의 `siteUrl`에 넣을 수 있습니다.
